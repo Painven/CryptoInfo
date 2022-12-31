@@ -24,7 +24,7 @@
             BorderThickness="0,0,0,1">
             <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
                 <Button
-                    Command="{Binding RefreshInfoCommand}"
+                    Command="{Binding DownloadCurrenciesCommand}"
                     Style="{StaticResource ToolButtonStyle}"
                     ToolTip="Обновить данные">
                     <icons:PackIconFontAwesome Kind="CloudDownloadAltSolid" />

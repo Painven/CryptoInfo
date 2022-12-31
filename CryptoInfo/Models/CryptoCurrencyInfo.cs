@@ -1,6 +1,6 @@
 ﻿namespace CryptoInfo.Models;
 
-public record CryptoCurrencyInfo
+public record CryptoCurrency
 {
     public string TranslatedName { get; init; }
     public string ShortCodeName { get; init; }
